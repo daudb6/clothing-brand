@@ -397,6 +397,8 @@ section{
 .image{
     background: url("person.jpg") center/cover no-repeat;
 }
+
+
 .content{
     background: #fff;
     display: flex;
@@ -632,6 +634,20 @@ footer{
         padding: 8px;
         margin: 4px;
     }
+
+    .image{
+        background-image: none;
+    }
+
+    .content{
+        width: 50vw;
+        text-align: center;
+    }
+
+    .content h2{
+        font-size: 3.6rem;
+    }
+    
 }
   
   @media (max-width:668px) {
@@ -668,6 +684,11 @@ footer{
     }
   }
 
+  @media (max-width:470px) {
+    .content h2{
+        font-size: 3rem;
+    }
+  }
 
 
 
